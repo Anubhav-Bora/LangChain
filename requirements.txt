@@ -33,3 +33,6 @@ streamlit
 
 #structured output
 pydantic
+
+# Graph visualization
+grandalf
