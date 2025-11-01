@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 loader=TextLoader('sample.txt') #not present now
-documents=loader.load()
+documents=loader.load() # we can use lazy_load() for large files
 
 text_splitter=RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=50)
 docs=text_splitter.split_documents(documents)

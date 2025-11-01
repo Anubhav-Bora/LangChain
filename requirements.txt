@@ -36,3 +36,9 @@ pydantic
 
 # Graph visualization
 grandalf
+
+# Web scraping
+beautifulsoup4
+requests
+
+pypdf
