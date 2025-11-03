@@ -42,3 +42,5 @@ beautifulsoup4
 requests
 
 pypdf
+
+semanticChunker
